@@ -1,0 +1,84 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="titulo">
+      Cadastro de Contribuinte
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-segment [(ngModel)]="segmento">
+  		<ion-segment-button value="pessoa">
+    		<ion-label class="label-seg">Pessoal</ion-label>
+  		</ion-segment-button>
+	  	<ion-segment-button value="endereco">
+	    	<ion-label class="label-seg">Endereço</ion-label>
+	  	</ion-segment-button>
+	  	<ion-segment-button value="contato">
+	    	<ion-label class="label-seg">Contatos</ion-label>
+	  	</ion-segment-button>
+	  	<ion-segment-button value="banco">
+	    	<ion-label class="label-seg">Bancos</ion-label>
+	  	</ion-segment-button>
+	  	<ion-segment-button value="imagem">
+	    	<ion-label class="label-seg">Imagens</ion-label>
+	  	</ion-segment-button>
+	  	<ion-segment-button value="profissional">
+	    	<ion-label class="label-seg">Profissional</ion-label>
+	  	</ion-segment-button>
+	</ion-segment>
+
+	<ion-row *ngIf="segmento == 'pessoa'">
+		<ion-col col-6>
+			teste1
+		</ion-col>
+		<ion-col col-6>
+			teste1
+		</ion-col>
+	</ion-row>
+
+	<ion-row *ngIf="segmento == 'endereco'">
+		<ion-col col-6>
+			teste2
+		</ion-col>
+		<ion-col col-6>
+			teste2
+		</ion-col>
+	</ion-row>
+
+	<ion-row *ngIf="segmento == 'contato'">
+		<ion-col col-6>
+			teste3
+		</ion-col>
+		<ion-col col-6>
+			teste3
+		</ion-col>
+	</ion-row>
+
+	<ion-row *ngIf="segmento == 'banco'">
+		<ion-col col-6>
+			teste4
+		</ion-col>
+		<ion-col col-6>
+			teste4
+		</ion-col>
+	</ion-row>
+
+	<ion-row *ngIf="segmento == 'imagem'">
+		<ion-col col-6>
+			teste5
+		</ion-col>
+		<ion-col col-6>
+			teste5
+		</ion-col>
+	</ion-row>
+
+	<ion-row *ngIf="segmento == 'profissional'">
+		<ion-col col-6>
+			teste5
+		</ion-col>
+		<ion-col col-6>
+			teste5
+		</ion-col>
+	</ion-row>
+</ion-content>
