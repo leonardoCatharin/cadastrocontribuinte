@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 	private segmento : string="pessoa";
+	private referencia : string="endereco-pessoa";
   constructor() {}
 
 }

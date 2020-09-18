@@ -1,3 +1,9 @@
+.header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+}
+
 #container {
   text-align: center;
   position: absolute;
@@ -27,6 +33,188 @@
   color: white;
 }
 
+.label-texto{
+  font-size: 1.3em;
+}
+
 .label-seg{
   color: #000!important;
+}
+
+.margin-left{
+  margin-left: 5px;
+}
+
+.botao-pesquisar{
+  width: 40px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 4px 7px 2px 7px;
+  margin-top: 10px;
+}
+
+.botao-pesquisar img{
+  width: 100%;
+}
+
+.botao-pesquisar:hover{
+  cursor: pointer;
+}
+
+.box{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.box::-webkit-scrollbar:vertical{
+  display: block!important;
+   width: 10px!important;
+}
+
+/* Track */
+.box::-webkit-scrollbar-track:vertical{
+  border-radius: 10px!important;
+  background: red!important;
+}
+
+/* Handle */
+.box::-webkit-scrollbar-thumb:vertical{
+  border-radius: 10px!important;
+  background: white!important;
+}
+
+/* Handle on hover */
+.box::-webkit-scrollbar-thumb:vertical:hover {
+  background: red!important;
+}
+
+.box-inside{
+  width: 100%;
+  height: 100px;
+}
+
+.botoes{
+  margin-top: 20px;
+}
+
+.botao-proximo{
+  float: right;
+  background-color: #009B58;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.botao-proximo:hover{
+  cursor: pointer;
+}
+
+.botao-proximo span{
+  margin-right: 10px;
+}
+
+.botao-anterior{
+  margin-right: 15px;
+  float: right;
+  background-color: #888888;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.botao-anterior:hover{
+  cursor: pointer;
+}
+
+.botao-anterior span{
+  margin-left: 10px;
+}
+
+.botao-novo{
+  float: right;
+  background-color: #00669B;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.botao-novo:hover{
+  cursor: pointer;
+}
+
+.botao-nova-imagem{
+  float: right;
+  background-color: #00669B;
+  color: white;
+  border-radius: 10px;
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center; 
+}
+
+.botao-nova-imagem:hover{
+  cursor: pointer;
+}
+
+.botao-delete{
+  float:right;
+  width: 58px;
+  padding: 8px 8px 4px 8px;
+  background-color: #9B0000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.botao-delete:hover{
+  cursor: pointer;
+}
+
+
+.botao-delete img{
+  width: 25px;
+}
+
+.botao-edit{
+  float:right;
+  width: 58px;
+  padding: 8px 8px 4px 8px;
+  background-color: #007B9B;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.botao-edit:hover{
+  cursor: pointer;
+}
+
+.botao-edit img{
+  width: 22px;
+}
+
+.imagem-lista:hover{
+  cursor: pointer;
+} 
+
+.checkbox{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.select{
+  margin-top: 15px;
 }
