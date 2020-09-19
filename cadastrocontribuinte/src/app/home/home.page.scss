@@ -34,7 +34,7 @@
 }
 
 .label-texto{
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .label-seg{
@@ -46,17 +46,17 @@
 }
 
 .botao-pesquisar{
-  width: 40px;
+  width: 30px;
   position: relative;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
-  padding: 4px 7px 2px 7px;
+  padding: 6px 4px 2px 4px;
   margin-top: 10px;
 }
 
 .botao-pesquisar img{
-  width: 100%;
+  width: 80%;
 }
 
 .botao-pesquisar:hover{
@@ -70,26 +70,21 @@
   overflow-y: scroll;
 }
 
-.box::-webkit-scrollbar:vertical{
-  display: block!important;
-   width: 10px!important;
+.box::-webkit-scrollbar{
+  display: block;
+  width: 8px;
 }
 
 /* Track */
-.box::-webkit-scrollbar-track:vertical{
-  border-radius: 10px!important;
-  background: red!important;
+.box::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background: black;
 }
 
 /* Handle */
-.box::-webkit-scrollbar-thumb:vertical{
-  border-radius: 10px!important;
-  background: white!important;
-}
-
-/* Handle on hover */
-.box::-webkit-scrollbar-thumb:vertical:hover {
-  background: red!important;
+.box::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background: #ccc;
 }
 
 .box-inside{
@@ -217,4 +212,12 @@
 
 .select{
   margin-top: 15px;
+}
+
+.botao-gravar{
+
+}
+
+.botao-cancelar{
+  
 }

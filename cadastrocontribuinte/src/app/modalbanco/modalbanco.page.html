@@ -1,0 +1,93 @@
+<ion-header class="header">
+    <ion-row>
+    	<ion-col size="12">
+    		<ion-title class="titulo">
+    		  Banco
+    		</ion-title>		
+    	</ion-col>
+    </ion-row>
+</ion-header>
+
+<ion-content>
+	<ion-row>
+	<ion-col size="4">
+		<ion-item>
+			<ion-input placeholder="Sequência" type="number"></ion-input>
+		</ion-item>
+	</ion-col>
+	<ion-col size="4" offset="2">
+		<div class="select">
+			<ion-item>
+				<ion-label>Tipo</ion-label>
+    			<ion-select okText="Ok" cancelText="Cancelar">
+      				<ion-select-option value="0">Tipo 1</ion-select-option>
+      				<ion-select-option value="1">Tipo 2</ion-select-option>
+      				<ion-select-option value="2">Tipo 3</ion-select-option>
+    			</ion-select>
+				</ion-item>
+			</div>
+	</ion-col>
+
+	<ion-col size="3">
+		<ion-item>
+		  <ion-input placeholder="Cód. Banco" type="text"></ion-input>
+		</ion-item>
+	</ion-col>
+	<ion-col size="1">
+		<div class="botao-pesquisar">
+		  	<img src="../assets/icon/search.png">
+		</div>	
+	</ion-col>
+	<ion-col size="8">
+		<ion-item>
+			<ion-input placeholder="Banco" disabled="true" type="text"></ion-input>
+		</ion-item>
+	</ion-col>
+
+	<ion-col size="3">
+		<ion-item>
+		  <ion-input placeholder="Cód. Agência" type="text"></ion-input>
+		</ion-item>
+	</ion-col>
+	<ion-col size="1">
+		<div class="botao-pesquisar">
+		  	<img src="../assets/icon/search.png">
+		</div>	
+	</ion-col>
+	<ion-col size="8">
+		<ion-item>
+			<ion-input placeholder="Agência" disabled="true" type="text"></ion-input>
+		</ion-item>
+	</ion-col>
+
+
+	<ion-col size="4">
+		<ion-item>
+		  <ion-input placeholder="Conta" type="text"></ion-input>
+		</ion-item>
+	</ion-col>
+
+	<ion-col size="4">
+		<ion-item>
+		  <ion-input placeholder="Ordem Bancária" type="text"></ion-input>
+		</ion-item>
+	</ion-col>
+
+	<ion-col size="8">
+		<ion-item>
+			<ion-label position="fixed">Início Validade</ion-label>
+			<ion-input type="date"></ion-input>
+		</ion-item>
+	</ion-col>
+
+	<ion-col size="12" class="botoes">
+		<div class="botao-gravar">
+			<span>Gravar</span>
+		</div>
+
+		<div class="botao-cancelar">
+			<span>Cancelar</span>
+		</div>
+		</ion-col>
+	</ion-row>
+</ion-content>

@@ -14,7 +14,19 @@ const routes: Routes = [
   {
     path: 'modalendereco',
     loadChildren: () => import('./modalendereco/modalendereco.module').then( m => m.ModalenderecoPageModule)
+  },  {
+    path: 'contato',
+    loadChildren: () => import('./contato/contato.module').then( m => m.ContatoPageModule)
   },
+  {
+    path: 'modalcontato',
+    loadChildren: () => import('./modalcontato/modalcontato.module').then( m => m.ModalcontatoPageModule)
+  },
+  {
+    path: 'modalbanco',
+    loadChildren: () => import('./modalbanco/modalbanco.module').then( m => m.ModalbancoPageModule)
+  },
+
 ];
 
 @NgModule({
